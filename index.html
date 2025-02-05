@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang='EN'>
+	<head>
+		<meta charset='utf-8'/>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+		<title>Profile Card</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel='stylesheet' href='./style.css'/>
+	</head>
+	<body>
+		<div class='container'>
+			<img src='img/IMG_E5624.jpg' alt='profile-picture' class='profile-picture' data-testid='profilePicture' />
+			<div class='content'>
+				<p data-testid='fullName' class='full-name'>Elizabeth Akindele</p>
+				<p data-testid='jobTitle' class='job-title' >Software Engineer</p>
+				<p data-testid='shortBio' class='short-bio'>I'm Elizabeth Akindele. A graduate of ALX Software engineering program and CyberGirls fellowship. <br/>I am a Software Engineer with extensive experience in designing, developing, and maintaining web applications across the full stack. Skilled in front-end and back-end development, cloud technologies, and collaborative software engineering, I am known for delivering clean, efficient code, and optimizing performance in agile environments. A strong team player with a passion for building intuitive, scalable, and user-centric applications, I’m always eager to stay ahead of new technologies and best practices</p>
+				<p data-testid='currentLocation'>Lagos, Nigeria</p>
+				<p data-testid='emailAddress' class='email'>elizase405@gmail.com</p>
+				<div data-testid='socialLinks' class='socials'>
+					<a href='https://linkedin.com/in/akindele-elizabeth' target='_blank'><i class="fa-brands fa-linkedin-in"></i></a>
+					<a href='https://x.com/eliza31364' target='_blank'><i class="fa-brands fa-x-twitter"></i></a>
+					<a href='https://github.com/elizase405' target='_blank'><i class="fa-brands fa-github"></i></a>
+				</div>
+				<p data-testid='currentTimeUTC' class='current-time'></p>
+			</div>
+		</div>
+	</body>
+	<script src='./script.js'></script>
+</html>
